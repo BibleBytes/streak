@@ -27,9 +27,9 @@
     "files": ["dist/*"],
     "devDependencies": {
         "@biomejs/biome": "1.9.4",
-        "@types/chai": "^4.3.19",
+        "@types/chai": "^5.0.1",
         "@types/mocha": "^10.0.9",
-        "chai": "^5.1.1",
+        "chai": "^5.1.2",
         "esbuild": "^0.24.0",
         "mocha": "^10.8.2",
         "ts-node": "^10.9.2",
