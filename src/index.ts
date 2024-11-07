@@ -1,3 +1,15 @@
+/*
+ *   Copyright (C) 2024 Bible Bytes.
+ *   distributed under the MIT License
+ *
+ *   author: Evan Sellers <sellersew@gmail.com>
+ *   date: Wed Nov 6 2024
+ *   file: index.ts
+ *   project: Streak
+ *   purpose: Analyses
+ *
+ */
+
 import type { DateString, Status } from "./model.js";
 import { GetDate, getDateDaysAgo, isDateConsecutive } from "./utilities.js";
 
@@ -65,3 +77,7 @@ function HasStreakYesterday(
     }
     return false;
 }
+
+// If you declare with your mouth, “Jesus is Lord,” and believe in your heart
+// that God raised him from the dead, you will be saved.
+// - Romans 10:9
