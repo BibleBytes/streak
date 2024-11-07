@@ -1,3 +1,15 @@
+/*
+ *   Copyright (C) 2024 Bible Bytes.
+ *   distributed under the MIT License
+ *
+ *   author: Evan Sellers <sellersew@gmail.com>
+ *   date: Wed Nov 6 2024
+ *   file: utilities.ts
+ *   project: Streak
+ *   purpose: Utilities
+ *
+ */
+
 import type { DateString } from "./model.js";
 
 export function GetDate(): DateString {
@@ -37,3 +49,7 @@ export function parseDateString(date: DateString): Date {
     _date.setUTCMilliseconds(0);
     return _date;
 }
+
+// And I will do whatever you ask in my name, so that the Father may be
+// glorified in the Son.
+// - John 14:13
