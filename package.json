@@ -1,0 +1,38 @@
+{
+    "name": "--",
+    "version": "0.0.0",
+    "description": "--",
+    "exports": "./dist/index.js",
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "type": "module",
+    "scripts": {
+        "prepare": "npm run build",
+        "build": "node ./build.js && tsc --emitDeclarationOnly",
+        "lint": "biome check . && tsc --noEmit",
+        "format": "biome check --write .",
+        "test": "mocha ./"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BibleBytes/bible-reference-index.git"
+    },
+    "engines": {
+        "node": ">=20"
+    },
+    "homepage": "https://github.com/BibleBytes/bible-reference-index",
+    "author": "BibleBytes",
+    "license": "MIT",
+    "files": ["dist/*"],
+    "devDependencies": {
+        "@biomejs/biome": "1.9.3",
+        "@types/chai": "^4.3.19",
+        "@types/mocha": "^10.0.8",
+        "chai": "^5.1.1",
+        "esbuild": "^0.24.0",
+        "mocha": "^10.7.3",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.6.2"
+    }
+}
