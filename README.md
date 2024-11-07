@@ -1,8 +1,18 @@
+<p align="center">
+    <a href="https://mybiblebytes.com/opensource">
+        <img src="https://github.com/BibleBytes/landing-page/blob/main/favicon/android-chrome-512x512.png" height="128px"/>
+        <h1 align="center">Streak</h1>
+    </a>
+</p>
 
 
+<p align="center">
+    <img alt="NPM Version" src="https://img.shields.io/npm/v/%40biblebytes%2Fstreak"/>
+    <img src="https://github.com/BibleBytes/streak/actions/workflows/testing.yml/badge.svg"/>
+</p>
 
-<!-- FIXME - Add Header -->
 
+---
 ## Overview
 The Streak Library is a tool for analyzing a list of dates to track
 activity patterns. It calculates total unique days, checks for streaks today
@@ -17,9 +27,8 @@ consecutive days of activity.
 ## Installation
 To install the package via npm, run:
 
-<!-- FIXME - Add Repo Name -->
 ```
-npm i 
+npm i @biblebytes/streak
 ```
 
 
@@ -37,9 +46,8 @@ function Process(dates:DateString[]): Status
  - **Returns**: [Status](#status-structure) object
 
 **Examples**:
-<!-- FIXME - Imports -->
 ```typescript
-import { GetStatus, type DateString, GetDate } from "FIXME";
+import { GetStatus, type DateString, GetDate } from "@biblebytes/streak";
 
 const dates1:DateString[] = [
     "2022-12-21", "2022-12-22", "2022-12-23",
@@ -102,9 +110,8 @@ function GetDate(): DateString
  - **Returns**: current date as [date string](#date-string)
 
 **Examples**:
-<!-- FIXME - Imports -->
 ```typescript
-import { GetStatus, type DateString, GetDate } from "FIXME";
+import { GetStatus, type DateString, GetDate } from "@biblebytes/streak";
 
 // On September, 1st 2024
 GetDate();
@@ -121,9 +128,8 @@ dates as strings. The date format is `YYYY-MM-DD` with zero padding on the
 month and day identifier.
 
 **Examples**:
-<!-- FIXME - Imports -->
 ```typescript
-import { type DateString } from "FIXME";
+import { type DateString } from "@biblebytes/streak";
 
 let date1:DateString = "2001-12-29";
 let date2:DateString = "2001-01-01";
