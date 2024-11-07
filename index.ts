@@ -11,7 +11,10 @@
  */
 
 export { type DateString, type Status } from "./src/model.js";
-export { GetStatus } from "./src/index.js";
+export { 
+    
+    
+    GetStatus } from "./src/index.js";
 export { GetDate } from "./src/utilities.js";
 
 // Blessings crown the head of the righteous,
