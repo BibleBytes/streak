@@ -1,7 +1,7 @@
 {
-    "name": "--",
+    "name": "@biblebytes/streak",
     "version": "0.0.0",
-    "description": "--",
+    "description": "The Streak Library is a tool for analyzing a list of dates to track activity patterns.",
     "exports": "./dist/index.js",
     "main": "./dist/index.js",
     "module": "./dist/index.js",
@@ -26,7 +26,7 @@
     "license": "MIT",
     "files": ["dist/*"],
     "devDependencies": {
-        "@biomejs/biome": "1.9.3",
+        "@biomejs/biome": "1.9.4",
         "@types/chai": "^4.3.19",
         "@types/mocha": "^10.0.9",
         "chai": "^5.1.1",
