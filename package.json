@@ -16,12 +16,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/BibleBytes/bible-reference-index.git"
+        "url": "https://github.com/BibleBytes/streak.git"
     },
     "engines": {
         "node": ">=20"
     },
-    "homepage": "https://github.com/BibleBytes/bible-reference-index",
+    "homepage": "https://github.com/BibleBytes/streak",
     "author": "BibleBytes",
     "license": "MIT",
     "files": ["dist/*"],
