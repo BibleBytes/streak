@@ -1,6 +1,6 @@
 {
     "name": "@biblebytes/streak",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "The Streak Library is a tool for analyzing a list of dates to track activity patterns.",
     "exports": "./dist/index.js",
     "main": "./dist/index.js",
@@ -16,12 +16,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/BibleBytes/bible-reference-index.git"
+        "url": "https://github.com/BibleBytes/streak.git"
     },
     "engines": {
         "node": ">=20"
     },
-    "homepage": "https://github.com/BibleBytes/bible-reference-index",
+    "homepage": "https://github.com/BibleBytes/streak",
     "author": "BibleBytes",
     "license": "MIT",
     "files": ["dist/*"],
