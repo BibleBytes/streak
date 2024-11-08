@@ -1,6 +1,6 @@
 {
     "name": "@biblebytes/streak",
-    "version": "1.0.0",
+    "version": "0.0.0",
     "description": "The Streak Library is a tool for analyzing a list of dates to track activity patterns.",
     "exports": "./dist/index.js",
     "main": "./dist/index.js",
